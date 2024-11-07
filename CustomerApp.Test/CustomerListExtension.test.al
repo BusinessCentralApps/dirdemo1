@@ -17,7 +17,7 @@ codeunit 50000 "HelloWorld Test"
     [MessageHandler]
     procedure HelloWorldMessageHandler(Message: Text[1024])
     begin
-        MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello AL-Go!');
+        MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello AL-Go, you are simply the best!');
     end;
 
     var
